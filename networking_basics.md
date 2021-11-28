@@ -1,5 +1,5 @@
 ### **Adding static route to access other nodes connected to a gateway you are already connected to**
-### ** View Route table **
+### **View Route table**
 
 - **Windows**
 `route print`
@@ -15,7 +15,7 @@ _Permanently adding static route_
 
         `up route add -net <destinaton_network> netmask <destination_mask> gw <gateway_address> <interface_name>`
 
-###** Add static route to table **
+### **Add static route to table**
 
 - **Windows**
      `route add <destination network> mask <mask address> <gateway>`
@@ -23,7 +23,7 @@ _Permanently adding static route_
 - **Linux**
      `ip route add <destination network/mask> via <gateway>`  #CDIR is accepted
 
-###** Remove static route **
+### **Remove static route**
 
 - **Windows**
         `route delete <destination network>`
