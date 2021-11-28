@@ -3,7 +3,7 @@
 #************* view route table ********
 
     # windows
-        route print
+        `route print`
 
     # Linux
         # All these methods won't survive reboot
