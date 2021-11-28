@@ -1,7 +1,7 @@
 ### **Adding static route to access other nodes connected to a gateway you are already connected to**
 ### **View Route table**
 
-- **Windows**
+- **Windows** <br />
 `route print`
 
 - **Linux**
