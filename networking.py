@@ -28,7 +28,7 @@
 #******* Remove static route
 
     # windows
-        `route delete <destination network>`
+        route delete <destination network>
 
     # Linux
         ip route del <destination_addr> via <gateway>
